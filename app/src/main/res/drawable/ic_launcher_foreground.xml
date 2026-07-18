@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left Chat Bubble (User - Cyan Accent) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M34,26 h32 A8,8 0 0,1 74,34 v18 A8,8 0 0,1 66,60 H44 l-10,10 v-10 H34 A8,8 0 0,1 26,52 v-18 A8,8 0 0,1 34,26 z" />
+
+    <!-- Right Chat Bubble (Model - Purple Accent) -->
+    <path
+        android:fillColor="#E040FB"
+        android:pathData="M64,44 h24 A6,6 0 0,1 94,50 v14 A6,6 0 0,1 88,70 H76 l-8,8 v-8 H64 A6,6 0 0,1 58,64 v-14 A6,6 0 0,1 64,44 z" />
+
+    <!-- Context Flow Indicator / Connector Wave (White) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M 40,40 Q 51,46 62,40 Q 73,34 84,40"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+        
+    <!-- Tiny Dots representing conversation bits inside the bubbles -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,40h12 v3.5h-12z M36,48h18 v3.5h-18z M68,54h14 v3h-14z M68,60h10 v3h-10z" />
+</vector>

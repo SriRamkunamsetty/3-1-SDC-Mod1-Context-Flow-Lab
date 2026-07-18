@@ -1,0 +1,6 @@
+{
+  "name": "Context Flow Lab",
+  "description": "An interactive environment to design, test, and inspect multi-turn conversation flows and context management with the Gemini API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
